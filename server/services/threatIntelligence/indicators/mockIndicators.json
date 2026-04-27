@@ -1,0 +1,61 @@
+{
+  "_comment": "Updated threat indicator database for 2026. Includes recent phishing campaigns targeting AI, crypto, and social media platforms.",
+  "domains": [
+    { "value": "paypal-secure-login.xyz",       "source": "OpenPhish",   "confidence": 95, "category": "credential-harvesting", "addedAt": "2024-01-15" },
+    { "value": "amazon-account-suspended.net",  "source": "PhishTank",   "confidence": 92, "category": "account-takeover",      "addedAt": "2024-02-03" },
+    { "value": "secure-bank-verify.xyz",        "source": "AlienVault",  "confidence": 88, "category": "banking-fraud",         "addedAt": "2024-02-10" },
+    { "value": "apple-id-locked.tk",            "source": "OpenPhish",   "confidence": 91, "category": "credential-harvesting", "addedAt": "2024-03-01" },
+    { "value": "microsoft-support-alert.ml",    "source": "PhishTank",   "confidence": 87, "category": "tech-support-scam",     "addedAt": "2024-03-12" },
+    { "value": "netflix-billing-update.ga",     "source": "AlienVault",  "confidence": 84, "category": "billing-fraud",         "addedAt": "2024-03-20" },
+    { "value": "irs-tax-refund-claim.cf",       "source": "Local",       "confidence": 90, "category": "government-impersonation", "addedAt": "2024-04-01" },
+    { "value": "fedex-package-verify.gq",       "source": "OpenPhish",   "confidence": 82, "category": "delivery-scam",         "addedAt": "2024-04-05" },
+    { "value": "crypto-wallet-verify.top",      "source": "AlienVault",  "confidence": 89, "category": "crypto-scam",           "addedAt": "2024-04-10" },
+    { "value": "google-account-recovery.click", "source": "PhishTank",   "confidence": 86, "category": "credential-harvesting", "addedAt": "2024-04-15" },
+    { "value": "ai-chatgpt-support.com",        "source": "OpenPhish",   "confidence": 93, "category": "ai-impersonation",      "addedAt": "2025-06-15" },
+    { "value": "openai-account-verify.net",     "source": "PhishTank",   "confidence": 91, "category": "credential-harvesting", "addedAt": "2025-07-22" },
+    { "value": "github-security-alert.xyz",     "source": "AlienVault",  "confidence": 88, "category": "developer-scam",        "addedAt": "2025-08-10" },
+    { "value": "discord-nitro-free.gift",       "source": "OpenPhish",   "confidence": 85, "category": "gaming-scam",           "addedAt": "2025-09-05" },
+    { "value": "steam-wallet-reward.com",       "source": "PhishTank",   "confidence": 82, "category": "gaming-scam",           "addedAt": "2025-10-12" },
+    { "value": "linkedin-job-offer-alert.ml",   "source": "AlienVault",  "confidence": 79, "category": "employment-scam",       "addedAt": "2025-11-08" },
+    { "value": "zoom-meeting-security.ga",      "source": "OpenPhish",   "confidence": 87, "category": "meeting-scam",          "addedAt": "2025-12-01" },
+    { "value": "slack-workspace-invite.top",    "source": "PhishTank",   "confidence": 83, "category": "collaboration-scam",    "addedAt": "2026-01-15" },
+    { "value": "notion-template-share.click",   "source": "AlienVault",  "confidence": 81, "category": "productivity-scam",     "addedAt": "2026-02-20" },
+    { "value": "figma-design-review.net",       "source": "OpenPhish",   "confidence": 86, "category": "design-tool-scam",      "addedAt": "2026-03-10" },
+    { "value": "canva-pro-free-trial.xyz",      "source": "PhishTank",   "confidence": 78, "category": "creative-tool-scam",    "addedAt": "2026-04-01" }
+  ],
+  "urls": [
+    { "value": "http://paypal-secure-login.xyz/verify",           "source": "OpenPhish",  "confidence": 97, "category": "credential-harvesting", "addedAt": "2024-01-15" },
+    { "value": "http://amazon-account-suspended.net/login",       "source": "PhishTank",  "confidence": 94, "category": "account-takeover",      "addedAt": "2024-02-03" },
+    { "value": "http://secure-bank-verify.xyz/confirm",           "source": "AlienVault", "confidence": 91, "category": "banking-fraud",         "addedAt": "2024-02-10" },
+    { "value": "https://apple-id-locked.tk/restore",              "source": "OpenPhish",  "confidence": 93, "category": "credential-harvesting", "addedAt": "2024-03-01" },
+    { "value": "http://microsoft-support-alert.ml/fix",           "source": "PhishTank",  "confidence": 88, "category": "tech-support-scam",     "addedAt": "2024-03-12" },
+    { "value": "https://ai-chatgpt-support.com/login",            "source": "OpenPhish",  "confidence": 95, "category": "ai-impersonation",      "addedAt": "2025-06-15" },
+    { "value": "https://openai-account-verify.net/confirm",       "source": "PhishTank",  "confidence": 93, "category": "credential-harvesting", "addedAt": "2025-07-22" },
+    { "value": "https://github-security-alert.xyz/verify",        "source": "AlienVault", "confidence": 90, "category": "developer-scam",        "addedAt": "2025-08-10" },
+    { "value": "https://discord-nitro-free.gift/claim",           "source": "OpenPhish",  "confidence": 87, "category": "gaming-scam",           "addedAt": "2025-09-05" },
+    { "value": "https://steam-wallet-reward.com/redeem",          "source": "PhishTank",  "confidence": 84, "category": "gaming-scam",           "addedAt": "2025-10-12" },
+    { "value": "https://linkedin-job-offer-alert.ml/apply",       "source": "AlienVault", "confidence": 81, "category": "employment-scam",       "addedAt": "2025-11-08" },
+    { "value": "https://zoom-meeting-security.ga/join",           "source": "OpenPhish",  "confidence": 89, "category": "meeting-scam",          "addedAt": "2025-12-01" },
+    { "value": "https://slack-workspace-invite.top/accept",       "source": "PhishTank",  "confidence": 85, "category": "collaboration-scam",    "addedAt": "2026-01-15" },
+    { "value": "https://notion-template-share.click/open",        "source": "AlienVault", "confidence": 83, "category": "productivity-scam",     "addedAt": "2026-02-20" },
+    { "value": "https://figma-design-review.net/view",            "source": "OpenPhish",  "confidence": 88, "category": "design-tool-scam",      "addedAt": "2026-03-10" }
+  ],
+  "ips": [
+    { "value": "192.168.100.200", "source": "AlienVault", "confidence": 78, "category": "malicious-host", "addedAt": "2024-01-20" },
+    { "value": "10.0.0.99",       "source": "Local",      "confidence": 70, "category": "malicious-host", "addedAt": "2024-02-01" },
+    { "value": "203.0.113.45",    "source": "OpenPhish",  "confidence": 85, "category": "phishing-c2",    "addedAt": "2025-09-15" },
+    { "value": "198.51.100.123",  "source": "PhishTank",  "confidence": 82, "category": "malware-host",   "addedAt": "2026-01-08" }
+  ],
+  "keywords": [
+    { "value": "verify-account-now",  "source": "Local", "confidence": 65, "category": "phishing-pattern", "addedAt": "2024-01-01" },
+    { "value": "account-suspended",   "source": "Local", "confidence": 60, "category": "phishing-pattern", "addedAt": "2024-01-01" },
+    { "value": "confirm-your-details","source": "Local", "confidence": 62, "category": "phishing-pattern", "addedAt": "2024-01-01" },
+    { "value": "ai-assistant-update", "source": "Local", "confidence": 68, "category": "ai-phishing",      "addedAt": "2025-06-01" },
+    { "value": "chatgpt-premium",     "source": "Local", "confidence": 66, "category": "ai-phishing",      "addedAt": "2025-07-01" },
+    { "value": "github-security",     "source": "Local", "confidence": 64, "category": "developer-scam",   "addedAt": "2025-08-01" },
+    { "value": "discord-nitro",       "source": "Local", "confidence": 61, "category": "gaming-scam",      "addedAt": "2025-09-01" },
+    { "value": "steam-wallet",        "source": "Local", "confidence": 63, "category": "gaming-scam",      "addedAt": "2025-10-01" },
+    { "value": "job-offer-alert",     "source": "Local", "confidence": 59, "category": "employment-scam",  "addedAt": "2025-11-01" },
+    { "value": "meeting-security",    "source": "Local", "confidence": 67, "category": "meeting-scam",     "addedAt": "2025-12-01" }
+  ]
+}

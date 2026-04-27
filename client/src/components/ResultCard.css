@@ -1,0 +1,87 @@
+.result-card {
+  margin-top: 1.75rem;
+  border-radius: 12px;
+  border: 1px solid;
+  padding: 1.25rem 1.5rem;
+  animation: fadeSlideUp 0.3s ease;
+}
+.rc-safe       { background: rgba(0,255,136,0.05);  border-color: var(--accent-green); }
+.rc-suspicious { background: rgba(255,165,2,0.06);  border-color: var(--accent-yellow); }
+.rc-danger     { background: rgba(255,71,87,0.07);  border-color: var(--accent-red); }
+
+.rc-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.rc-icon { font-size: 2rem; flex-shrink: 0; line-height: 1; }
+
+.rc-verdict { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.2rem; }
+.rc-safe       .rc-verdict { color: var(--accent-green); }
+.rc-suspicious .rc-verdict { color: var(--accent-yellow); }
+.rc-danger     .rc-verdict { color: var(--accent-red); }
+
+.rc-input {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  word-break: break-all;
+  max-width: 380px;
+}
+
+.rc-score-wrap {
+  margin-left: auto;
+  text-align: right;
+  flex-shrink: 0;
+}
+.rc-score-label { display: block; font-size: 0.72rem; color: var(--text-muted); margin-bottom: 0.2rem; }
+.rc-score { font-size: 1.6rem; font-weight: 700; }
+.rc-score-safe       { color: var(--accent-green); }
+.rc-score-suspicious { color: var(--accent-yellow); }
+.rc-score-danger     { color: var(--accent-red); }
+
+/* Meter bar */
+.rc-meter-track {
+  height: 6px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.rc-meter-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.6s ease;
+}
+.rc-meter-safe       { background: var(--accent-green); }
+.rc-meter-suspicious { background: var(--accent-yellow); }
+.rc-meter-danger     { background: var(--accent-red); }
+
+/* Reasons list */
+.rc-reasons {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+.rc-reasons li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.rc-reason-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-yellow);
+  flex-shrink: 0;
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

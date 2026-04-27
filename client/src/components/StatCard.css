@@ -1,0 +1,30 @@
+.stat-card-c {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.4rem;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.stat-card-c:hover { transform: translateY(-2px); }
+
+.sc-default { border-color: var(--border); }
+.sc-danger  { border-color: rgba(255,71,87,0.4); }
+.sc-safe    { border-color: rgba(0,255,136,0.35); }
+.sc-warning { border-color: rgba(255,165,2,0.4); }
+.sc-info    { border-color: rgba(0,212,255,0.35); }
+
+.sc-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; }
+.sc-icon { font-size: 1.6rem; }
+
+.sc-trend { font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.5rem; border-radius: 999px; }
+.sc-trend.up   { background: rgba(0,255,136,0.12); color: var(--accent-green); }
+.sc-trend.down { background: rgba(255,71,87,0.12); color: var(--accent-red); }
+
+.sc-value { font-size: 2rem; font-weight: 700; line-height: 1; }
+.sc-default .sc-value { color: var(--accent); }
+.sc-danger  .sc-value { color: var(--accent-red); }
+.sc-safe    .sc-value { color: var(--accent-green); }
+.sc-warning .sc-value { color: var(--accent-yellow); }
+.sc-info    .sc-value { color: var(--accent); }
+
+.sc-label { font-size: 0.82rem; color: var(--text-muted); }

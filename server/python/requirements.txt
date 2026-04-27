@@ -1,0 +1,12 @@
+# Real ML dependencies for phishing detection
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# ── Common ML libraries ─────────────────────────────────
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+joblib>=1.3.0
+
+# ── NLP utilities ─────────────────────────────────────────────────────────────
+nltk>=3.8.0
